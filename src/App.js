@@ -2,8 +2,8 @@ import React, { useCallback, useRef, useState } from 'react'
 
 import produce from 'immer';
 
-const numRows = 40;
-const numCols = 80;
+const numRows = 50;
+const numCols = 100;
 const randomSparsity = 0.7;
 
 const operations = [
@@ -27,15 +27,7 @@ const generateEmptyGrid = () => {
 
 
 const App = () => {
-  const [grid, setGrid] = useState(() => {
-    const rows = [];
-    for (let index = 0; index < numRows; index++) {
-      rows.push(Array(numCols).fill(0))
-    }
-    return rows
-
-  })
-
+  const [grid, setGrid] = useState(generateEmptyGrid())
   const [running, setRunning] = useState(false);
 
   const runningRef = useRef();
@@ -102,7 +94,6 @@ const App = () => {
             rows.push(Array.from(Array(numCols), () => (Math.random() > randomSparsity ? 1 : 0)))
           }
           setGrid(rows)
-
         }}> random</button>
         <button onClick={() => {
           setGrid(generateEmptyGrid());
