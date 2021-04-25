@@ -18,13 +18,8 @@ const operations = [
 ];
 
 const generateEmptyGrid = () => {
-  const rows = [];
-  for (let index = 0; index < numRows; index++) {
-    rows.push(Array(numCols).fill(0))
-  }
-  return rows
+  return Array.from({ length: numRows }, () => Array(numCols).fill(0));
 }
-
 
 const App = () => {
   const [grid, setGrid] = useState(generateEmptyGrid())
