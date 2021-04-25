@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://dsterna.github.io/game-of-life-react/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "https://dsterna.github.io/game-of-life-react/static/js/main.05ccdeb5.chunk.js",
+    "main.js.map": "https://dsterna.github.io/game-of-life-react/static/js/main.05ccdeb5.chunk.js.map",
+    "runtime-main.js": "https://dsterna.github.io/game-of-life-react/static/js/runtime-main.c5ec9398.js",
+    "runtime-main.js.map": "https://dsterna.github.io/game-of-life-react/static/js/runtime-main.c5ec9398.js.map",
+    "static/js/2.a3db42d5.chunk.js": "https://dsterna.github.io/game-of-life-react/static/js/2.a3db42d5.chunk.js",
+    "static/js/2.a3db42d5.chunk.js.map": "https://dsterna.github.io/game-of-life-react/static/js/2.a3db42d5.chunk.js.map",
+    "index.html": "https://dsterna.github.io/game-of-life-react/index.html",
+    "precache-manifest.3d91a4cad568f3b06863162b0e63f978.js": "https://dsterna.github.io/game-of-life-react/precache-manifest.3d91a4cad568f3b06863162b0e63f978.js",
+    "service-worker.js": "https://dsterna.github.io/game-of-life-react/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "https://dsterna.github.io/game-of-life-react/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.a3db42d5.chunk.js.LICENSE.txt": "https://dsterna.github.io/game-of-life-react/static/js/2.a3db42d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5ec9398.js",
+    "static/js/2.a3db42d5.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.05ccdeb5.chunk.js"
+  ]
+}
